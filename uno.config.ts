@@ -40,9 +40,11 @@ export default defineConfig({
     filesystem: [
       './content/**/*.md',
     ],
+    pipeline: {
+      include: [/\.ts/, /\.vue$/, /\.vue\?vue/],
+    },
   },
   transformers: [
     transformerDirectives(),
   ],
-  include: [/\.ts/, /\.vue$/, /\.vue\?vue/],
 })
