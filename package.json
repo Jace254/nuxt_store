@@ -16,9 +16,13 @@
     "@iconify/json": "^2.2.152",
     "@tanstack/vue-table": "^8.10.7",
     "@unocss/extractor-mdc": "^0.58.0",
+    "@vee-validate/zod": "^4.12.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
-    "radix-vue": "^1.2.3"
+    "lucide-vue-next": "^0.294.0",
+    "radix-vue": "^1.2.3",
+    "vee-validate": "^4.12.2",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.2.2",
