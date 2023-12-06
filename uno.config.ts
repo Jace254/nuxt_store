@@ -8,20 +8,16 @@ import {
   transformerDirectives,
 } from 'unocss'
 import extractorMdc from '@unocss/extractor-mdc'
+import presetShadcn from './preset.shadcn'
 
 export default defineConfig({
   shortcuts: {
     'border-base': 'border-gray-200 dark:border-gray-800',
     'bg-active': 'bg-gray:10',
     'bg-faded': 'bg-gray:5',
-    'bg-base': 'bg-white dark:bg-[#000]',
-  },
-  theme: {
-    colors: {
-      primary: {
-        DEFAULT: '#00DC82',
-      },
-    },
+    'bg-base': 'bg-background',
+    'animate-accordion-up': 'accordion-up',
+    'animate-accordion-down': 'accordion-down',
   },
   presets: [
     presetUno(),
@@ -35,6 +31,7 @@ export default defineConfig({
       },
     }),
     presetTypography(),
+    presetShadcn(),
   ],
   extractors: [
     extractorMdc(),
@@ -47,4 +44,5 @@ export default defineConfig({
   transformers: [
     transformerDirectives(),
   ],
+  include: [/\.ts/, /\.vue$/, /\.vue\?vue/],
 })

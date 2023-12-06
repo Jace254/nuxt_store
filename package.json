@@ -13,7 +13,10 @@
   },
   "dependencies": {
     "@iconify/json": "^2.2.152",
+    "@tanstack/vue-table": "^8.10.7",
     "@unocss/extractor-mdc": "^0.58.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
     "radix-vue": "^1.2.3"
   },
   "devDependencies": {
@@ -25,6 +28,7 @@
     "@vueuse/nuxt": "^10.6.1",
     "eslint": "^8.55.0",
     "nuxt": "^3.8.2",
+    "tailwind-merge": "^2.1.0",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   }
