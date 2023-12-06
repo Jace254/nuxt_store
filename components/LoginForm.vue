@@ -24,7 +24,7 @@ import { Label } from '@/components/ui/label'
         <Button class="mt-6" variant="default">
           Sign In
         </Button>
-        <Button class="mt-6" variant="link">
+        <Button class="mt-3" variant="link">
           <NuxtLink to="/register">
             Register
           </NuxtLink>
