@@ -8,7 +8,7 @@ import { Label } from '@/components/ui/label'
   <form>
     <div py8 px5 bg-faded b rounded-lg border-base shadow-sm>
       <h1 pb pt text-lg font-bold text-center>
-        Login to your account
+        Create an account
       </h1>
       <div flex flex-col gap-2 md:w="360px" w="300px">
         <div>
@@ -21,12 +21,17 @@ import { Label } from '@/components/ui/label'
           <Input id="password" type="password" placeholder="Password" />
         </div>
 
+        <div>
+          <Label for="password">Repeat Password</Label>
+          <Input id="password" type="password" placeholder="Repeat Password" />
+        </div>
+
         <Button class="mt-6" variant="default">
-          Sign In
+          Create
         </Button>
         <Button class="mt-6" variant="link">
-          <NuxtLink to="/register">
-            Register
+          <NuxtLink to="/">
+            Login
           </NuxtLink>
         </Button>
       </div>
