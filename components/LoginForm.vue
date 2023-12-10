@@ -11,15 +11,9 @@ import { Label } from '@/components/ui/label'
         Login to your account
       </h1>
       <div flex flex-col gap-2 md:w="360px" w="300px">
-        <div>
-          <Label for="email">Email</Label>
-          <Input id="email" type="email" placeholder="Email" />
-        </div>
+        <Input id="email" type="email" placeholder="Email" />
 
-        <div>
-          <Label for="password">Password</Label>
-          <Input id="password" type="password" placeholder="Password" />
-        </div>
+        <Input id="password" type="password" placeholder="Password" />
 
         <Button class="mt-6" variant="default">
           Sign In

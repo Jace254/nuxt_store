@@ -11,20 +11,11 @@ import { Label } from '@/components/ui/label'
         Create an account
       </h1>
       <div flex flex-col gap-2 md:w="360px" w="300px">
-        <div>
-          <Label for="email">Email</Label>
-          <Input id="email" type="email" placeholder="Email" />
-        </div>
+        <Input id="email" type="email" placeholder="Email" />
 
-        <div>
-          <Label for="password">Password</Label>
-          <Input id="password" type="password" placeholder="Password" />
-        </div>
+        <Input id="password" type="password" placeholder="Password" />
 
-        <div>
-          <Label for="password">Repeat Password</Label>
-          <Input id="password" type="password" placeholder="Repeat Password" />
-        </div>
+        <Input id="password" type="password" placeholder="Repeat Password" />
 
         <Button class="mt-6" variant="default">
           Create
