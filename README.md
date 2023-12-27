@@ -1,1 +1,1 @@
-# JujuTools Store Client
+# Vue Store Client
